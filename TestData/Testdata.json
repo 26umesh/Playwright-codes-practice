@@ -1,0 +1,36 @@
+[
+
+    {
+"fname":"ram",
+"middlename":"narayan",
+"Lastname":"abc",
+"Email":"ram.kl56@gmail.com",
+"password":"Tester@009",
+"Address":"17 ram gali",
+"City":"Ujjain",
+"State":"MP",
+"PINCode":"456665"
+},
+{
+"fname":"ram2",
+"middlename":"narayan2",
+"Lastname":"abc2",
+"Email":"ram.kl6@gmail.com",
+"password":"Tester@0092",
+"Address":"17 ram gali2",
+"City":"Ujjain2",
+"State":"MP2",
+"PINCode":"4566652"
+},
+{
+"fname":"ram3",
+"middlename":"narayan3",
+"Lastname":"abc3",
+"Email":"ram.kl586@gmail.com",
+"password":"Tester@0092",
+"Address":"17 ram gali3",
+"City":"Ujjain3",
+"State":"MP3",
+"PINCode":"4566653"
+}
+]
