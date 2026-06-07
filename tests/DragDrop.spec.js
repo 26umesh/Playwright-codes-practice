@@ -8,7 +8,7 @@ test("drag and drop",async({page})=>{
     await page.mouse.down();
     await page.getByText('Drop Here').hover();
     await page.mouse.up()
-
+console.log("drag and drop is successful");
     await expect (page.getByText('Dropped!')).toHaveText("Dropped!")
 
 })
