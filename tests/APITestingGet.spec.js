@@ -37,4 +37,5 @@ test("API with ui verification",async({request})=>{
     console.log(jsonresp2.Items[0].title);
     await page.goto("https://www.demoblaze.com/");
     await expect(page.getByRole('link', { name: 'Samsung Galaxy S6' })).toHaveText(jsonresp2.Items[0].title);
+    console.log("API and UI verification is successful");
 })
