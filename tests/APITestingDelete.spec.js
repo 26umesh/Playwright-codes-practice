@@ -11,7 +11,7 @@ test("Api testing Delete call",async({request})=>{
     const restext=await response.text();
     console.log(restext);
     expect(restext).toEqual("Created");
-
+console.log("Delete call is successful");
    const getResponse = await request.get("https://restful-booker.herokuapp.com/booking/1");
     expect(getResponse.status()).toBe(404);
 
