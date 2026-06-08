@@ -45,5 +45,5 @@ test('API with ui verification',async({request})=>{
             
         }
     })
-
+console.log("API call is successful");
 })
